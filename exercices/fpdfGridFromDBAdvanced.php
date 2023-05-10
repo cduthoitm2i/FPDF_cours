@@ -59,7 +59,7 @@ try {
 
     // Redirection vers le disque
 //      $pdf->Output("../outputs/villes.pdf");
-//      echo "Fichier cr&eacute;&eacute; sur le disque";
+//      echo "Fichier créé sur le disque";
 } catch (PDOException $e) {
     echo "Echec de l'exécution : " . $e->getMessage();
 }
